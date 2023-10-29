@@ -1,0 +1,12 @@
+lab9: Autres provisionner Ansible
+****** installation de nginx à l'aide d'Ansible ********
+voir https://developer.hashicorp.com/vagrant/docs/provisioning/ansible_local
+**creer un dossier lab9
+**deplacez vous dans ce dossier
+**creer un vagrantfile afin de configurer 1VMs à partir des infomations suivante:
+ -- CPU:1
+ --RAM:1Go
+ --IP fixe: 10.0.0.10
+** ecrivez un playbook s'appellant ngnix.yaml qui permettra d'installer nginx et le demarrer
+**vous devez vous baser sur ansible-local pour que le playbook soit execute dans la VM veifiez que la page par defaut de nginx est bien accessible via le navigateur
+** arretez la VM pius supprimez la 

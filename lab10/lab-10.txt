@@ -1,0 +1,2 @@
+lab10: Exemple pratique(1/2):Lab-10-Jenkins deployment with docker ansible and bash.
+voir https://github.com/eazytrainingfr/vagrant-for-devops/tree/main/lab-10

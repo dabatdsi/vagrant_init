@@ -1,0 +1,14 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+#definition des variables
+RAM = 1024
+CPU = 1
+Vagrant.configure("2") do |config|
+  #configuration de la partie virtualbox
+  config.vm.box = "geerlingguy/centos7"
+  config.vm.provider "virtualbox" do |v|
+    v.memory = RAM
+    v.cpus = CPU
+  end
+  
+end

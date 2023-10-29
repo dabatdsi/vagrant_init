@@ -1,0 +1,26 @@
+creation de vagrantfile:
+vagrant init:permet de creer vagrantfile automatiquement l'obtion '-m' permet de creer un vagrantfile limité.
+
+************
+Lab3:
+** creez un dossier lab3
+** deplacez-vous dans ce dossier
+** creez un vagrantfile afin d configurer la VM à partir des informations suivantes:
+--images de base:centos7 By Geerlingguy(voir https://app.vagrantup.com/boxes/search?utf8=%E2%9C%93&sort=downloads&provider=&q=centos+7 )
+--CPU:2 
+--RAM : 2 (avec une manque d'espace en disque dur jai utilisé cpu 1 ET ram 1
+la commande vagrant validate:permet de valider la configuration de vagrantfile
+**variabilité les parametres indiquées ci-dessus
+**connecte-vous en ssh (vagrant ssh)
+**installez nginx
+(sudo yum install nginx )
+(sudo systemctl status nginx)
+(sudo systemctl start nginx)
+(curl 127.0.0.1)
+
+**Arretez la VM puis supprimez la 
+(logout)
+
+vagrant destroy -f
+
+******** fin du lab3********

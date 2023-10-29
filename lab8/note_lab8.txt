@@ -1,0 +1,25 @@
+lab8: shell provisioning:
+** cas d'usage:
+-- installer des application
+---faire de la poste configuration
+--pour changer votre niveau de systeme d'exploitation
+---definir des parametre de systeme d'exploitation(langue,heure etc.)
+
+***** shell provisonner permet de fournir des arguments
+voir : https://developer.hashicorp.com/vagrant/docs/provisioning/shell
+https://github.com/PacktPublishing/Hands-On-DevOps-with-Vagrant/blob/master/Chapter07/lb.sh
+
+
+********** demo lab8 : shell***************
+** creez un dossier lab8
+** deplaez-vous dans ce dossier
+**creez un vagrantfile afin de configurer 3 VMs à partir des informations suivantes:
+ --image de base ubuntu/xenial64
+ -- CPU :1
+ -- RAM : 1Go
+ -- VM1 lb,ip:10.0.0.10,executer le script:
+ --VM2 web1,ip:10.0.0.11,executer le script:
+ --VM3 web2,ip:10.0.0.12,executer le script:
+**N'hesitez pas à lire le script pour mieux comprendre les opereations executées.(voir https://github.com/eazytrainingfr/vagrant-for-devops/blob/main/lab-8/Vagrantfile)
+** Accedez à l'interface web de chaque server et confirmez que l'application a bien demarer
+** Arretez les VMs puis supprimez les

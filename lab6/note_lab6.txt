@@ -1,0 +1,24 @@
+lab6: gestion des plugins
+**
+ NB: pour pouvoir implementer ses fonctionnalite vagrant utilise des pluguin
+voir https://rubygems.org/?locale=fr
+voir https://www.rubydoc.info/gems/vagrant-hostsupdater/1.1.1.160
+voir vagrantfile
+
+** vagrant plugin -h:permet de lister les plugin
+**creez un dossier lab6
+** deplacez-vous dans ce dossier
+**creez un vagrantfile afin de configurer 3VMs à partir des informations suivantes:
+--image de base :ubuntu/xenial64
+--CPU :1
+--RAM: 1 Go
+--VM1:lb,ip:10.0.0.10
+--VM2:web2,ip:10.0.0.11
+--VM":web2,ip:10.0.0.12
+**installez et utilisez le pluguin vagrant-hostsupdater afin que le fichier hosts de chaque machine corresponde à la realité de leur nom et de leur IP malgré les actions UP,RESUME et RELOAD (lisez la doc pour mieux comprendre son utilité)
+
+($ vagrant plugin install vagrant-hostsupdater)
+
+**lors du vagrant up,verifiez que le pluguin est bien appelé
+** connectez-vous en ssh sur chacune d'elles
+** arretez les machines puis supprimez les 

@@ -1,0 +1,22 @@
+
+
+******* gestion des fichiers************
+
+nous avons les type de config.vm.synced_folder suivant:
+-- le basic synceding(config.vm.synced_folder "source","destination") voir documentation https://developer.hashicorp.com/vagrant/docs/synced-folders/basic_usage
+--file NFS:
+--file Rsync:pour synchroniser des dossiers
+
+***************lab7:webapp folder***************
+**creez un dossier lab7
+** daplace-vous dans ce dossier
+** creez un vagrantfile afin de configure 1 VMs à partir des information suivantes:
+-- image de base:<username>/nginx (vagrant box creer au lab2)
+--CPU=1
+--RAM=1Go
+--IP FIXE = 10.0.0.10
+**recuperez en local dans votre dossier lab7 l'application webapp2
+(git clone url su site dans github)
+**Monte le code de l'application par le moyen de votre choix dans le dossier /var/www/html de la VM
+**verifie que le site recupéré depuis github est bien accessible
+Arretez la VM puis supprimez la 
