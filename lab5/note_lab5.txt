@@ -1,0 +1,19 @@
+
+**** lab5: deploiement d'un serveur  Web******
+**creer un dossier lab5
+** deplacez-vous dans ce dossier
+** creer un vagrantfile afin de configurer 3 VMs à partir des information suivantes:
+--image de base ubuntu/xenial64
+--cpu:1
+--RAM :1Go
+--VM1: lb ,ip:10.0.0.10
+--VM2:web1, ip:10.0.0.11
+--VM3:web2,ip:10.0.0.12
+** connectez-vous en ssh sur chacunes d'elles
+exemple: 
+(vagrant ssh lb) 
+(ip a : pour voir l'interface connecter)
+
+
+** arretez les VMs puis supprimez les 
+ ( vagrant destroy -f)

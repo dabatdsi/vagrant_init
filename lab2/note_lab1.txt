@@ -1,0 +1,17 @@
+lab1
+l'objet de ce lab est de creer un vbox avec vagrant
+
+pour se faire vous allez:
+** creer un dossier lab1 (dossier windows)
+**deplacez-vous dans ce dossier (lab1)
+**initialiser vagrant en utilisant la version 20190425.0.0 ubuntu/trusty64
+** demarez la VM (command vagrant up)
+**connez vous en ssh
+** installez ngnix
+** demmarez le service et activez son démarage au lancement de la VM
+** creez un vbox à partir de cette VM
+** creez un compte sur vagrant cloud
+** publiez votre vbox sur vagrant cloud sous le nom de <username>/nginx en version v1
+
+
+

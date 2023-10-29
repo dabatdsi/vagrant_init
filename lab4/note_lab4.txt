@@ -1,0 +1,21 @@
+**** Networking
+voir https://developer.hashicorp.com/vagrant/docs
+
+****** lab4 : Déploiement  d'un serveur web **********
+
+** creez un dossier lab4
+** déplacez-vous dans ce dossier
+** creez un vagrantfile afin de configurer la VM à partir des information suivantes 
+  -- image d base centos7 by Grlingguy
+  --CPU 2
+  --RAM 2Go
+  --IP fixe privée : 10.0.0.10
+**variabilisez les parametres indiquées ci-dessus
+** connctez-vous en ssh
+( ssh vagrant@10.0.0.10) NB:le mot de password de vagrant est 'vagrant'
+** installez nginx
+(sudo yum install nginx)
+** verifiez que vous avez accés à l'application depuis le PC local via   http://10.0.0.10
+** arretez la VM puis supprimez la
+
+********* fin de lab4********** merci*******

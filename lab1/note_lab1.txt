@@ -1,0 +1,14 @@
+note lab1:
+ici nous allons telechargé et installer  une machine virtuel et  vagrant
+voir https://www.vagrantup.com/
+initiation de  vagrant à la machine virtuel box
+sur windows  avec powerShell placez vous dans le dossier dev (ici lab1) puis taper les commande suivantes:
+** vagrant init ubuntu/trusty64 : creer automatiquement le fichier vagrantfile,  c’est dans le fichier Vagrantfile que nous allons décrire tous ce que nous souhaitons automatiser .
+ ** vagrant up:pour lancer directement vagrant dans VirtuelBox
+*** vagrant ssh :pour se connecter à distant
+*** vagrant halt pour eteindre la machine Vm 
+** vagrant destroy:pour supprimer la machine VM
+
+
+************suite de lab2 pour la creation de box personnaliser**********
+
